@@ -1,0 +1,186 @@
+/* ::::: http://everylastdrop.co.uk/css/style.css ::::: */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; }
+body { margin: 0px; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: 0px none; }
+q::before, q::after { content: none; }
+dl, menu, ol, ul { margin: 1em 0px; }
+menu, ol, ul { padding: 0px 0px 0px 40px; }
+nav ul, nav ol { list-style: outside none none; }
+img { border: 0px none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+html, button, input, select, textarea { color: rgb(34, 34, 34); }
+body { font-size: 1em; line-height: 1.4; }
+*::-moz-selection { background: rgb(179, 212, 252) none repeat scroll 0% 0%; text-shadow: none; }
+img { vertical-align: middle; }
+.ir::before { content: ""; display: block; width: 0px; height: 100%; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.clearfix {  }
+body { font-family: "Ubuntu"; font-weight: 300; font-style: normal; color: rgb(61, 61, 61); width: 100%; height: 100%; background: rgb(212, 158, 153) none repeat scroll 0% 0%; }
+em { font-weight: 500; font-style: normal; }
+img { position: absolute; }
+.click-through { pointer-events: none; }
+@font-face {
+  font-family: "BPdotsRegular";  font-style: normal;  font-weight: normal;  src: url('bpdots-webfont.eot') format("embedded-opentype"), url('bpdots-webfont.woff') format("woff"), url('bpdots-webfont.ttf') format("truetype"), url('bpdots-webfont.svg') format("svg");}
+#skrollr-body { width: 100%; height: 100%; }
+.loading { width: 100%; height: 100%; background: rgb(212, 158, 153) none repeat scroll 0% 0%; position: absolute; }
+.loading-container { width: 197px; height: 170px; background: transparent url('every-last-drop.png') no-repeat scroll 0px 0px; position: fixed; top: 50%; left: 50%; margin-left: -98px; margin-top: -85px; }
+img.loading-gif { position: absolute; top: 141px; left: 104px; }
+nav { position: fixed; z-index: 9999; margin: 0px 30px 0px 0px; padding: 0px; right: 0px; bottom: 20px; text-align: center; font-size: 13px; }
+nav ul li { text-indent: -9999px; width: 16px; height: 16px; padding: 8px; margin-top: 5px; border-radius: 16px; background: rgb(74, 74, 74) url('arrow-down.png') no-repeat scroll 8px 9px; color: rgb(255, 255, 255); cursor: pointer; }
+nav ul li.inactive { display: none; }
+nav ul li:hover { background-color: rgb(102, 102, 102); }
+nav ul li:active { background-color: rgb(43, 43, 43); }
+.container { width: 100%; height: 100%; position: fixed; background: rgb(53, 66, 80) none repeat scroll 0% 0%; display: none; }
+.scene { position: fixed; width: 100%; height: 100%; }
+.character-container { width: 100%; height: 100%; top: 0px; }
+.character-container-inner { width: 1000px; height: 94%; min-height: 400px; margin: 0px auto; padding: 3% 0px; position: relative; }
+img.juan { top: 360px; left: 480px; max-width: 126px; max-height: 315px; height: 80%; }
+img.juan-shower { top: 260px; left: 600px; }
+img.juan-clothes { top: 261px; left: 600px; }
+img.juan-nomnom { left: 105px; top: 270px; }
+img.bed-sheet, img.bed-frame { max-width: 369px; max-height: 525px; min-width: 320px; min-height: 455px; height: 80%; top: 290px; left: 44%; }
+img.table { top: 500px; }
+.sky { height: 200px; background: rgb(140, 201, 220) none repeat scroll 0% 0%; }
+.sky-inner { width: 1000px; height: 100%; margin: 0px auto; position: relative; min-height: 200px; overflow: hidden; }
+.title { height: 100%; min-height: 200px; }
+.title img { height: 80%; }
+img.logo { margin-top: 20px; max-width: 197px; max-height: 170px; }
+img.stars { max-width: 619px; max-height: 189px; margin: 0px 4%; left: 22%; }
+img.moon { margin-top: 20px; max-width: 95px; max-height: 120px; right: 0px; }
+.scroll-message { position: absolute; left: 160px; color: rgb(255, 255, 255); top: 23px; }
+.scroll-message::after { content: url('scroll-arrow.png'); position: relative; top: 75px; left: 10px; opacity: 0.8; }
+.ribbon-message { box-sizing: border-box; background: rgb(241, 241, 234) none repeat scroll 0% 0%; width: 40%; position: absolute; left: 32%; top: 50%; margin-top: -67px; padding: 14px; height: 137px; text-align: center; font-size: 15px; }
+.ribbon-message::before { content: url('ribbon-left.png'); width: 27px; height: 137px; position: absolute; left: -27px; top: 0px; }
+.ribbon-message::after { content: url('ribbon-right.png'); width: 28px; height: 137px; position: absolute; right: -27px; top: 0px; }
+img.sun { max-width: 163px; max-height: 163px; right: 0px; }
+.bedroom-floor { height: 100%; background: rgb(212, 158, 153) none repeat scroll 0% 0%; }
+.floor-inner { width: 1000px; height: 94%; min-height: 400px; margin: 0px auto; padding: 3% 0px; position: relative; }
+.floor-inner-below { width: 1000px; height: 35%; min-height: 200px; margin: 0px auto; padding: 0px; position: relative; top: -35%; }
+img.desk { max-width: 389px; max-height: 382px; height: 60%; top: 12%; z-index: 2; }
+img.side-table { max-width: 126px; max-height: 300px; height: 40%; top: 10%; right: 0px; }
+img.rug { max-width: 375px; max-height: 160px; height: 70%; top: 20%; z-index: 1; }
+img.tree { max-width: 91px; max-height: 208px; height: 70%; right: 0px; top: -20%; }
+.bathroom-wall { height: 36%; background: rgb(94, 145, 147) none repeat scroll 0% 0%; min-height: 300px; }
+.wall-inner { width: 1000px; height: 100%; margin: 0px auto; position: relative; min-height: 300px; }
+img.mirror, img.mirror-text { top: 10%; max-width: 350px; max-height: 223px; height: 70%; min-height: 200px; }
+img.shelf { left: 50%; top: 50%; }
+img.bathroom-light { left: 47%; z-index: 200; }
+img.window { top: 20%; left: 70%; }
+img.clock-face, img.clock-hand { right: 0px; top: 30%; }
+.bathroom-floor { height: 64%; background: transparent url('bathroom-tile.png') repeat scroll 0px 0px; }
+img.bathroom-sink { top: 10%; left: 3%; height: 50%; max-width: 270px; max-height: 344px; }
+img.bathroom-mat { top: 400px; left: 360px; height: 50%; max-width: 411px; max-height: 152px; }
+img.bath { left: 36%; top: 140px; }
+img.bathroom-chair { right: 3%; max-width: 104px; max-height: 259px; height: 50%; top: 14%; }
+.shower-curtain { position: absolute; left: 35%; top: 170px; background: transparent url('shower-curtain.png') no-repeat scroll 0px 0px; width: 451px; height: 368px; }
+.wardrobe-wall { height: 36%; background: rgb(116, 82, 95) none repeat scroll 0% 0%; min-height: 300px; }
+img.wardrobe, img.wardrobe-rail { top: 20%; }
+img.picture-frame, img.picture-frame-icons { right: 15%; top: 21%; }
+.wardrobe-floor { height: 64%; background: rgb(193, 226, 236) none repeat scroll 0% 0%; }
+img.lamp { max-width: 155px; max-height: 297px; height: 100%; right: 0px; margin-top: 20%; }
+img.wardrobe-rug { max-width: 370px; max-height: 100%; min-height: 100px; top: 50%; left: 30%; }
+.kitchen-wall { height: 36%; max-height: 347px; background: rgb(94, 145, 147) none repeat scroll 0% 0%; min-height: 300px; }
+.kitchen-wall-inner { width: 1000px; height: 100%; margin: 0px auto; position: relative; min-height: 300px; max-height: 347px; }
+img.kitchen-counters { max-height: 402px; max-width: 631px; right: 0px; height: 120%; top: 20%; }
+img.kitchen-shelf { right: 30%; top: 20%; }
+img.knife-rack { left: 27%; top: 30%; }
+img.chalkboard, img.chalk-notes { top: 15%; }
+img.bin { top: 30%; left: 45%; }
+img.kitchen-rug { right: 0%; top: 40%; }
+.kitchen-floor { height: 75%; background: rgb(208, 213, 209) none repeat scroll 0% 0%; }
+.grass { background: rgb(172, 198, 102) none repeat scroll 0% 0%; }
+.road { width: 1000px; height: 4000px; margin: 0px auto; position: relative; background: transparent url('road.png') repeat scroll 0px 0px; }
+.car-container { width: 1000px; margin: 0px auto; position: relative; top: 70px; z-index: 100; }
+.car-container-inner { width: 254px; height: 435px; position: absolute; }
+img.roadworks { right: 6%; top: 1200px; }
+img.roadworks-scroll { right: 9%; top: 2100px; }
+img.roadworks-sign, .roadworks-sign-text { right: 9%; top: 2100px; }
+img.traffic-lights { right: 464px; top: 2200px; }
+.roadworks-sign-text { position: absolute; width: 309px; height: 334px; color: rgb(255, 255, 255); font-family: BPdotsRegular; text-transform: uppercase; text-align: center; padding: 23px 10px 0px; font-size: 30px; line-height: 30px; text-shadow: 0px 0px 10px rgb(251, 204, 108); animation-name: sign-flash; animation-duration: 2.5s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.space { width: 100%; height: 100%; background: rgb(53, 66, 80) none repeat scroll 0% 0%; }
+.stars-blurred { width: 100%; height: 100%; background: transparent url('stars-blurred.png') repeat scroll 0% 0%; }
+.space-stars { width: 100%; height: 100%; background: transparent url('space-stars.png') repeat scroll 0% 0%; }
+.space-container { width: 1000px; height: 100%; margin: 0px auto; position: relative; }
+img.saturn { top: 600px; right: 40%; }
+img.earth { left: 50px; }
+img.mercury { top: 550px; }
+img.venus { right: 0px; }
+img.alien { position: absolute; }
+.alien-container { position: absolute; top: 70px; }
+.alien-message { position: absolute; width: 270px; padding: 22px 0px 0px 50px; text-align: center; font-size: 18px; line-height: 26px; }
+.planet { animation-name: planet-bounce; animation-duration: 2.5s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.planet-delay-1 { animation-delay: 1.4s; }
+.planet-delay-2 { animation-delay: 2s; }
+.spacesuit { animation-name: spaceman-bounce; animation-duration: 2.5s; animation-timing-function: ease-in-out; animation-delay: 0.5s; animation-iteration-count: infinite; }
+.living-room { width: 100%; height: 100%; }
+.living-room-container { width: 1000px; height: 100%; margin: 0px auto; position: relative; }
+.tv { background: transparent url('tv.png') no-repeat scroll 0px 0px; width: 540px; height: 399px; position: absolute; top: 68px; }
+.film-container { position: absolute; overflow: hidden; width: 500px; height: 281px; top: 40px; left: 20px; }
+iframe#vimeo-player { border: medium none; background: rgb(204, 204, 204) none repeat scroll 0% 0%; }
+.remote-control { background: transparent url('remote-control.png') no-repeat scroll 0px 0px; width: 88px; height: 238px; position: absolute; top: 120px; left: 600px; }
+.play-video { background: transparent url('play-button.png') no-repeat scroll 0px 0px; width: 57px; height: 60px; cursor: pointer; position: relative; top: 15px; left: 14px; text-indent: -9999px; }
+.play-video:active { background: transparent url('play-button-down.png') no-repeat scroll 0px 0px; }
+.close-video { background: transparent url('stop-button.png') no-repeat scroll 0px 0px; width: 57px; height: 60px; cursor: pointer; position: relative; top: 22px; left: 14px; text-indent: -9999px; }
+.close-video:active { background: transparent url('stop-button-down.png') no-repeat scroll 0px 0px; }
+img.armchair { top: 68px; right: 0px; }
+img.small-tree { top: 440px; left: 620px; }
+.coffee-table { background: transparent url('coffee-table.png') no-repeat scroll 0px 0px; width: 253px; height: 115px; position: absolute; right: 20px; top: 520px; }
+.back-to-top { color: rgb(203, 209, 205); cursor: pointer; position: relative; top: 5px; left: 45px; }
+.back-to-top::before { content: url('back-to-top-icon.png'); position: relative; top: 10px; padding-right: 10px; }
+.logos { position: absolute; top: 500px; left: 20px; }
+.logos > div { float: left; }
+.logos span { font-size: 13px; color: rgb(255, 255, 255); position: relative; text-align: center; display: inline-block; margin-bottom: 10px; width: 100%; }
+.ns a.logo { display: block; background: transparent url('nice-and-serious.png') no-repeat scroll 0px 0px; width: 217px; height: 98px; position: relative; text-indent: -9999px; }
+.waterwise { margin-left: 20px; }
+.waterwise a.waterwise-logo { display: block; background: transparent url('waterwise-logo.png') no-repeat scroll 0px 0px; width: 257px; height: 98px; position: relative; text-indent: -9999px; }
+.social-container { position: absolute; top: 25px; left: 130px; width: 350px; }
+.twitter-share-button, .fb-like, .google-button { position: relative; float: left; }
+.fb-like { margin-left: 35px; }
+.awards-container-bottom { position: absolute; top: 0px; }
+.awwwards, .cssda, .css-winner, .cssa { position: relative; z-index: 9999; left: 0px; }
+.awwwards { top: 20px; }
+.cssda { top: 40px; }
+.css-winner { top: 60px; }
+.cssa a { display: block; width: 100px; height: 100px; text-indent: -8000px; background-repeat: no-repeat; background-position: 0px 0px; overflow: hidden; background-image: url('cssa-dark-sotd.png'); background-size: 100px 100px; z-index: 100; }
+.awwwards a { display: block; width: 70px; height: 105px; text-indent: -8000px; background-repeat: no-repeat; background-position: 0px 0px; overflow: hidden; background-image: url('awwwards_sotd_white_left.png'); z-index: 100; }
+.cssda a { display: block; width: 68px; height: 96px; text-indent: -8000px; background-repeat: no-repeat; background-position: 0px 0px; overflow: hidden; background-image: url('css-design-awards-winner-left-black.png'); z-index: 100; }
+.css-winner a { display: block; width: 81px; height: 59px; text-indent: -8000px; background-repeat: no-repeat; background-position: 0px 0px; overflow: hidden; background-image: url('css-winner-white-left.png'); z-index: 100; }
+@media (max-width: 767px) {
+  .awwwards, .cssda, .css-winner { display: none; }
+}
+@media not all, not all, not all, not all {
+  .awwwards a { background-size: 70px 105px; background-image: url('awwwards_sotd_white_left2x.png'); }
+}
+/* ::::: http://fonts.googleapis.com/css?family=Ubuntu:300,500 ::::: */
+
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 300;  src: local("Ubuntu Light"), local("Ubuntu-Light"), url('x_edmnknkultk57alvvbv4x0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 300;  src: local("Ubuntu Light"), local("Ubuntu-Light"), url('nbf2d6y3abowfkbm-9hcwix0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 300;  src: local("Ubuntu Light"), local("Ubuntu-Light"), url('cdlilwqst01wnakqzbtzkox0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+1F00-1FFF;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 300;  src: local("Ubuntu Light"), local("Ubuntu-Light"), url('7k0rmqcn8efxqs6schurzyx0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+370-3FF;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 300;  src: local("Ubuntu Light"), local("Ubuntu-Light"), url('wtcvfjhwxkxx4x0kus1koyx0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 300;  src: local("Ubuntu Light"), local("Ubuntu-Light"), url('_aijtyevf54tkvdly-dlnjbw1xu1rkptjj_0jans920.woff2') format("woff2");  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 500;  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url('mlkvhabswthsvacnstwcp4x0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 500;  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url('iimfelcopb-ozgzq14k4eox0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 500;  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url('h2j4_4xa-hiuoc_a3biwvix0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+1F00-1FFF;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 500;  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url('etsrpnps3nir-zkyir-sdix0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+370-3FF;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 500;  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url('gmhvhm-nvj1086dvggmzb4x0hvgzzqufrduzrpvh3d8.woff2') format("woff2");  unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;}
+@font-face {
+  font-family: "Ubuntu";  font-style: normal;  font-weight: 500;  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url('osj2djdpjqfrvusto6iffjbw1xu1rkptjj_0jans920.woff2') format("woff2");  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
